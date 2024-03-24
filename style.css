@@ -12,7 +12,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background: #ff8c00;
+    background: #ff4d00;
     border-radius: 10px;
 }
 
@@ -45,24 +45,19 @@ html::-webkit-scrollbar {
 }
 
 .nav-item .nav-link:hover {
-    color: #ff8c00;
+    color: #ff4d00;
 }
 
-#nvabar input {
-    border-radius: 50px;
-}
-
-#btn {
-    border-radius: 5px;
-    padding: 5px;
-    border: 1px solid #ff8c00;
-    background: transparent;
+.dropdown-item {
+    color: black;
+    margin: 5px 0px;
+    font-size: 20px;
+    font-weight: 550;
     transition: 0.5s;
 }
 
-#btn:hover {
-    background: #ff8c00;
-    color: white;
+.dropdown-item:hover {
+    color: #ff4d00;
 }
 
 /* Navbar End */
