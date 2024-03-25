@@ -13,22 +13,23 @@ html::-webkit-scrollbar-track {
 
 html::-webkit-scrollbar-thumb {
     background: #ff4d00;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 html::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 
 /* Navbar Start */
 #navbar {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.8);
     padding: 0px 5% 0px;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-nav {
     margin-left: auto;
-    margin-right: 5%;
 }
 
 #logo img {
@@ -41,11 +42,15 @@ html::-webkit-scrollbar {
     margin: 10px 10px;
     font-size: 22px;
     font-weight: 550;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .nav-item .nav-link:hover {
     color: #ff4d00;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .dropdown-item {
@@ -53,7 +58,7 @@ html::-webkit-scrollbar {
     margin: 5px 0px;
     font-size: 20px;
     font-weight: 550;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .dropdown-item:hover {
@@ -61,3 +66,10 @@ html::-webkit-scrollbar {
 }
 
 /* Navbar End */
+
+
+.container-fluid {
+    height: 800px;
+    width: 100%;
+    background-image: url("./assets/images/bg-top.jpg");
+}
